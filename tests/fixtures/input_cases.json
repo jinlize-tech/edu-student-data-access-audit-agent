@@ -1,0 +1,248 @@
+{
+  "cases": [
+    {
+      "case_id": "normal_complete",
+      "expected_status": "READY_FOR_PROCESSING",
+      "instance": {
+        "contract_version": "1.2.0",
+        "data_status": "confirmed",
+        "contains_sensitive_data": false,
+        "requested_output_language": "zh-CN",
+        "systems_inventory": [
+          {}
+        ],
+        "data_fields": [
+          {}
+        ],
+        "user_roles": [
+          {}
+        ],
+        "access_matrix": [
+          {}
+        ],
+        "vendor_list": [
+          {}
+        ],
+        "retention_policy": "保留与删除规则已核对（脱敏示例）",
+        "student_data_categories": [
+          {}
+        ],
+        "change_context": "变更背景已核对（脱敏示例）",
+        "resume_mode": "new"
+      }
+    },
+    {
+      "case_id": "missing_required",
+      "expected_status": "NEEDS_INPUT",
+      "instance": {
+        "contract_version": "1.2.0",
+        "data_status": "confirmed",
+        "contains_sensitive_data": false,
+        "requested_output_language": "zh-CN",
+        "data_fields": [
+          {}
+        ],
+        "user_roles": [
+          {}
+        ],
+        "access_matrix": [
+          {}
+        ],
+        "vendor_list": [
+          {}
+        ],
+        "retention_policy": "保留与删除规则已核对（脱敏示例）",
+        "student_data_categories": [
+          {}
+        ],
+        "change_context": "变更背景已核对（脱敏示例）",
+        "resume_mode": "new"
+      }
+    },
+    {
+      "case_id": "invalid_type",
+      "expected_status": "INVALID_INPUT",
+      "instance": {
+        "contract_version": "1.2.0",
+        "data_status": "confirmed",
+        "contains_sensitive_data": false,
+        "requested_output_language": "zh-CN",
+        "systems_inventory": 123,
+        "data_fields": [
+          {}
+        ],
+        "user_roles": [
+          {}
+        ],
+        "access_matrix": [
+          {}
+        ],
+        "vendor_list": [
+          {}
+        ],
+        "retention_policy": "保留与删除规则已核对（脱敏示例）",
+        "student_data_categories": [
+          {}
+        ],
+        "change_context": "变更背景已核对（脱敏示例）",
+        "resume_mode": "new"
+      }
+    },
+    {
+      "case_id": "unconfirmed",
+      "expected_status": "NEEDS_CONFIRMATION",
+      "instance": {
+        "contract_version": "1.2.0",
+        "data_status": "unconfirmed",
+        "contains_sensitive_data": false,
+        "requested_output_language": "zh-CN",
+        "systems_inventory": [
+          {}
+        ],
+        "data_fields": [
+          {}
+        ],
+        "user_roles": [
+          {}
+        ],
+        "access_matrix": [
+          {}
+        ],
+        "vendor_list": [
+          {}
+        ],
+        "retention_policy": "保留与删除规则已核对（脱敏示例）",
+        "student_data_categories": [
+          {}
+        ],
+        "change_context": "变更背景已核对（脱敏示例）",
+        "resume_mode": "new"
+      }
+    },
+    {
+      "case_id": "partial_confirmation",
+      "expected_status": "NEEDS_CONFIRMATION",
+      "instance": {
+        "contract_version": "1.2.0",
+        "data_status": "partially_confirmed",
+        "contains_sensitive_data": false,
+        "requested_output_language": "zh-CN",
+        "systems_inventory": [
+          {}
+        ],
+        "data_fields": [
+          {}
+        ],
+        "user_roles": [
+          {}
+        ],
+        "access_matrix": [
+          {}
+        ],
+        "vendor_list": [
+          {}
+        ],
+        "retention_policy": "保留与删除规则已核对（脱敏示例）",
+        "student_data_categories": [
+          {}
+        ],
+        "change_context": "变更背景已核对（脱敏示例）",
+        "resume_mode": "new"
+      }
+    },
+    {
+      "case_id": "sensitive_marked",
+      "expected_status": "READY_WITH_PRIVACY_WARNING",
+      "instance": {
+        "contract_version": "1.2.0",
+        "data_status": "confirmed",
+        "contains_sensitive_data": true,
+        "requested_output_language": "zh-CN",
+        "systems_inventory": [
+          {}
+        ],
+        "data_fields": [
+          {}
+        ],
+        "user_roles": [
+          {}
+        ],
+        "access_matrix": [
+          {}
+        ],
+        "vendor_list": [
+          {}
+        ],
+        "retention_policy": "保留与删除规则已核对（脱敏示例）",
+        "student_data_categories": [
+          {}
+        ],
+        "change_context": "变更背景已核对（脱敏示例）",
+        "resume_mode": "new"
+      }
+    },
+    {
+      "case_id": "undeclared_field",
+      "expected_status": "INVALID_INPUT",
+      "instance": {
+        "contract_version": "1.2.0",
+        "data_status": "confirmed",
+        "contains_sensitive_data": false,
+        "requested_output_language": "zh-CN",
+        "systems_inventory": [
+          {}
+        ],
+        "data_fields": [
+          {}
+        ],
+        "user_roles": [
+          {}
+        ],
+        "access_matrix": [
+          {}
+        ],
+        "vendor_list": [
+          {}
+        ],
+        "retention_policy": "保留与删除规则已核对（脱敏示例）",
+        "student_data_categories": [
+          {}
+        ],
+        "change_context": "变更背景已核对（脱敏示例）",
+        "resume_mode": "new",
+        "未声明字段": "不应被接受"
+      }
+    },
+    {
+      "case_id": "resume_without_state",
+      "expected_status": "NEEDS_INPUT",
+      "instance": {
+        "contract_version": "1.2.0",
+        "data_status": "confirmed",
+        "contains_sensitive_data": false,
+        "requested_output_language": "zh-CN",
+        "systems_inventory": [
+          {}
+        ],
+        "data_fields": [
+          {}
+        ],
+        "user_roles": [
+          {}
+        ],
+        "access_matrix": [
+          {}
+        ],
+        "vendor_list": [
+          {}
+        ],
+        "retention_policy": "保留与删除规则已核对（脱敏示例）",
+        "student_data_categories": [
+          {}
+        ],
+        "change_context": "变更背景已核对（脱敏示例）",
+        "resume_mode": "resume"
+      }
+    }
+  ]
+}

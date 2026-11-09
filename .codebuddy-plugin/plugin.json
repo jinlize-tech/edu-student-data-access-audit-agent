@@ -1,0 +1,63 @@
+{
+  "name": "edu-student-data-access-audit-agent",
+  "version": "1.0.0",
+  "description": "A multi-step education agent for Student Data Map and Access Audit.",
+  "author": {
+    "name": "广州金励泽科技服务有限公司",
+    "email": "270911570+yangsongbaofu-dot@users.noreply.github.com"
+  },
+  "agents": [
+    "./agents/edu-student-data-access-audit-agent.md"
+  ],
+  "expertType": "agent",
+  "agentName": "edu-student-data-access-audit-agent",
+  "displayName": {
+    "en": "Student Data Map and Access Audit",
+    "zh": "学员数据地图与权限审计"
+  },
+  "profession": {
+    "en": "Student Data Map and Access Audit",
+    "zh": "学员数据地图与权限审计"
+  },
+  "displayDescription": {
+    "en": "Multi-step professional workflow for Student Data Map and Access Audit.",
+    "zh": "盘点数据字段、系统、流程、角色与供应商，建立数据地图和最小权限建议，优先处理高风险访问。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "15-Education",
+  "defaultInitPrompt": {
+    "en": "Help me complete Student Data Map and Access Audit.",
+    "zh": "请帮我完成一次学员数据地图与权限审计"
+  },
+  "plugin": "edu-student-data-access-audit-agent",
+  "tags": [
+    {
+      "en": "Education",
+      "zh": "教培机构"
+    },
+    {
+      "en": "Professional Workflow",
+      "zh": "专业工作流"
+    },
+    {
+      "en": "Student Data Map and Access Audit",
+      "zh": "学员数据地图与权限审计"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Help me complete Student Data Map and Access Audit.",
+      "zh": "请帮我完成一次学员数据地图与权限审计"
+    },
+    {
+      "en": "Start with scope and evidence inventory.",
+      "zh": "请先确认范围并盘点资料"
+    },
+    {
+      "en": "Generate the final deliverables with risks and open questions.",
+      "zh": "请生成最终成果，并列出风险与待确认事项"
+    }
+  ],
+  "homepage": "https://github.com/jinlize-tech/edu-student-data-access-audit-agent",
+  "license": "Apache-2.0"
+}

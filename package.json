@@ -1,0 +1,15 @@
+{
+  "name": "edu-student-data-access-audit-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Student Data Map and Access Audit",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node tests/run_tests.js",
+    "validate:input": "node scripts/validate_input.js examples/typical_input.json",
+    "validate:output": "node scripts/validate_output.js examples/typical_output.json"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

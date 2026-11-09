@@ -1,0 +1,32 @@
+{
+  "number": 33,
+  "product_id": "JLZ-EDU-AG-033",
+  "candidate_id": "CAND-052",
+  "chinese_name": "学员数据地图与权限审计",
+  "english_name": "Student Data Map and Access Audit",
+  "repository_name": "edu-student-data-access-audit-agent",
+  "repository_url": "https://github.com/jinlize-tech/edu-student-data-access-audit-agent",
+  "product_type": "Agent",
+  "category": "15 数字治理与AI合规中心",
+  "batch": 1,
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "core_outputs": [
+    "学员数据地图",
+    "权限矩阵",
+    "整改优先级"
+  ],
+  "optional_outputs": [
+    "处理活动表",
+    "共享清单",
+    "留存缺口",
+    "复测清单"
+  ],
+  "high_risk": true,
+  "deterministic": false,
+  "scenario_count": 14,
+  "package_path": "dist/edu-student-data-access-audit-agent-v1.0.0.zip",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "status": "LOCAL_DEVELOPMENT_COMPLETE_PENDING_REMOTE_VERIFICATION"
+}

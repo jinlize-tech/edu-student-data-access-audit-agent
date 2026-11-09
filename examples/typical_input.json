@@ -1,0 +1,27 @@
+{
+  "contract_version": "1.2.0",
+  "data_status": "confirmed",
+  "contains_sensitive_data": false,
+  "requested_output_language": "zh-CN",
+  "systems_inventory": [
+    {}
+  ],
+  "data_fields": [
+    {}
+  ],
+  "user_roles": [
+    {}
+  ],
+  "access_matrix": [
+    {}
+  ],
+  "vendor_list": [
+    {}
+  ],
+  "retention_policy": "保留与删除规则已核对（脱敏示例）",
+  "student_data_categories": [
+    {}
+  ],
+  "change_context": "变更背景已核对（脱敏示例）",
+  "resume_mode": "new"
+}

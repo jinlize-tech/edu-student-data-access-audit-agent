@@ -1,0 +1,114 @@
+{
+  "contract_version": "1.2.0",
+  "product_id": "JLZ-EDU-AG-033",
+  "product_name": "学员数据地图与权限审计",
+  "product_type": "Agent",
+  "repository_name": "edu-student-data-access-audit-agent",
+  "repository_url": "https://github.com/jinlize-tech/edu-student-data-access-audit-agent",
+  "product_version": "1.0.0",
+  "batch": 1,
+  "business_category": "15 数字治理与AI合规中心",
+  "high_risk": true,
+  "deterministic": false,
+  "agent": true,
+  "core_outputs": [
+    "学员数据地图",
+    "权限矩阵",
+    "整改优先级"
+  ],
+  "optional_outputs": [
+    "处理活动表",
+    "共享清单",
+    "留存缺口",
+    "复测清单"
+  ],
+  "all_outputs": [
+    "学员数据地图",
+    "权限矩阵",
+    "整改优先级",
+    "处理活动表",
+    "共享清单",
+    "留存缺口",
+    "复测清单"
+  ],
+  "human_review_required": true,
+  "reviewer_role": "数据负责人/IT/法务",
+  "commercial_boundary": null,
+  "input_required": [
+    "contract_version",
+    "data_status",
+    "contains_sensitive_data",
+    "systems_inventory",
+    "data_fields",
+    "user_roles",
+    "access_matrix",
+    "retention_policy",
+    "student_data_categories",
+    "change_context"
+  ],
+  "input_properties": {
+    "contract_version": {
+      "type": "string"
+    },
+    "data_status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "partially_confirmed",
+        "unconfirmed"
+      ]
+    },
+    "contains_sensitive_data": {
+      "type": "boolean"
+    },
+    "requested_output_language": {
+      "type": "string",
+      "enum": [
+        "zh-CN",
+        "en"
+      ],
+      "default": "zh-CN"
+    },
+    "systems_inventory": {
+      "type": "array"
+    },
+    "data_fields": {
+      "type": "array"
+    },
+    "user_roles": {
+      "type": "array"
+    },
+    "access_matrix": {
+      "type": "array"
+    },
+    "vendor_list": {
+      "type": "array"
+    },
+    "retention_policy": {
+      "type": "string"
+    },
+    "student_data_categories": {
+      "type": "array"
+    },
+    "change_context": {
+      "type": "string"
+    },
+    "resume_mode": {
+      "type": "string",
+      "enum": [
+        "new",
+        "resume",
+        "target_change",
+        "stage_rollback"
+      ],
+      "default": "new"
+    },
+    "agent_state": {
+      "type": "object"
+    }
+  },
+  "expected_scenario_count": 14,
+  "license": "Apache-2.0",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED"
+}
