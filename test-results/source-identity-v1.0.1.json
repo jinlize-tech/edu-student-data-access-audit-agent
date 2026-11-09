@@ -1,0 +1,17 @@
+{
+  "product_id": "JLZ-EDU-AG-033",
+  "repository_name": "edu-student-data-access-audit-agent",
+  "version": "1.0.1",
+  "tested_source_commit": "2748d6d48eb3ad823bb8bbdeb9540271bd6629fe",
+  "tested_source_tree_sha": "8a4566949aa6ce55485f98a5974d7cf45eeb9bb8",
+  "package_path": "dist/edu-student-data-access-audit-agent-v1.0.1.zip",
+  "package_sha256": "EFFE2F6AF04C61DCBD825021C334320654A66308DE52B7702C71CD3BEF4A7446",
+  "runtime_test_status": "LOCAL_TEST_PASS",
+  "runtime_test_count": 62,
+  "schema_validation_status": "SCHEMA_INSTANCE_VALIDATION_PASS",
+  "schema_validation_case_count": 16,
+  "model_runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "readme_repair": "PASS",
+  "plugin_author_name": "Education AI Tools Maintainers"
+}
