@@ -2,10 +2,10 @@
   "product_id": "JLZ-EDU-AG-033",
   "repository_name": "edu-student-data-access-audit-agent",
   "product_type": "Agent",
-  "version": "1.0.0",
-  "package_path": "dist/edu-student-data-access-audit-agent-v1.0.0.zip",
-  "sha256": "7556EFD34DFF6076104DC1E4A86832BC5A7C6DE3A450437A992F68D1349E770F",
-  "bytes": 47257,
+  "version": "1.0.1",
+  "package_path": "dist/edu-student-data-access-audit-agent-v1.0.1.zip",
+  "sha256": "EFFE2F6AF04C61DCBD825021C334320654A66308DE52B7702C71CD3BEF4A7446",
+  "bytes": 48404,
   "entries": [
     "edu-student-data-access-audit-agent/README.md",
     "edu-student-data-access-audit-agent/PRODUCT_SPEC.md",
@@ -38,5 +38,9 @@
   "license": "Apache-2.0",
   "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
   "workbuddy_validation": "NOT_EXECUTED",
-  "built_at": "2026-11-09T00:00:00+08:00"
+  "built_at": "2026-11-09T12:02:44.705678+00:00",
+  "previous_version": "1.0.0",
+  "previous_package_path": "dist/edu-student-data-access-audit-agent-v1.0.0.zip",
+  "previous_package_sha256": "7556EFD34DFF6076104DC1E4A86832BC5A7C6DE3A450437A992F68D1349E770F",
+  "patch_reason": "README_USAGE_INSTALLATION_AND_PLATFORM_METADATA_FINALIZATION"
 }

@@ -9,7 +9,7 @@
   "product_type": "Agent",
   "category": "15 数字治理与AI合规中心",
   "batch": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "Apache-2.0",
   "core_outputs": [
     "学员数据地图",
@@ -25,8 +25,13 @@
   "high_risk": true,
   "deterministic": false,
   "scenario_count": 14,
-  "package_path": "dist/edu-student-data-access-audit-agent-v1.0.0.zip",
+  "package_path": "dist/edu-student-data-access-audit-agent-v1.0.1.zip",
   "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
   "workbuddy_validation": "NOT_EXECUTED",
-  "status": "LOCAL_DEVELOPMENT_COMPLETE_PENDING_REMOTE_VERIFICATION"
+  "status": "DOCUMENTATION_AND_METADATA_PATCH_1.0.1_BUILT_PENDING_REMOTE_VERIFICATION",
+  "previous_version": "1.0.0",
+  "previous_package_path": "dist/edu-student-data-access-audit-agent-v1.0.0.zip",
+  "previous_package_sha256": "7556EFD34DFF6076104DC1E4A86832BC5A7C6DE3A450437A992F68D1349E770F",
+  "package_state": "PATCH_PACKAGE_V1.0.1_BUILT",
+  "readme_repair": "README_USAGE_INSTALLATION_ALIGNED_WITH_PACKAGE_CONTENTS"
 }
