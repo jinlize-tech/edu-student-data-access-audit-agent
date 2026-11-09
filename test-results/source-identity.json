@@ -1,0 +1,16 @@
+{
+  "product_id": "JLZ-EDU-AG-033",
+  "repository_name": "edu-student-data-access-audit-agent",
+  "tested_source_commit": "9e9e8fc6bef381d63747bb203d3aa74d1d64828a",
+  "tested_source_tree_sha": "19f7fdc7d3863e98e56420a9807e01c0d2936af6",
+  "product_version": "1.0.0",
+  "package_sha256": "7556EFD34DFF6076104DC1E4A86832BC5A7C6DE3A450437A992F68D1349E770F",
+  "runtime_test_status": "LOCAL_TEST_PASS",
+  "runtime_test_count": 62,
+  "schema_validation_status": "SCHEMA_INSTANCE_VALIDATION_PASS",
+  "schema_validation_case_count": 16,
+  "scenario_count": 14,
+  "scenario_execution_status": "MAPPED_NOT_INDIVIDUALLY_EXECUTED",
+  "model_runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED"
+}
